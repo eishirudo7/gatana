@@ -1,6 +1,6 @@
 {
-  "name": "test",
-  "version": "0.1.0",
+  "name": "eishirudo",
+  "version": "1.4.0",
   "private": true,
   "scripts": {
     "dev": "next dev -p 10000",

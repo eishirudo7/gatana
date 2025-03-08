@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: false,
+  output: 'standalone',
+  reactStrictMode: true,
+  swcMinify: true,
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.resolve.fallback = {
